@@ -1,0 +1,75 @@
+﻿  SpeechManager.cpp
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\numeric(35,26): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\numeric(44): message : 查看对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+F:\VS.C++\演讲比赛流程管理系统\演讲比赛流程管理系统\SpeechManager.cpp(180): message : 查看对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,float>(const _InIt,const _InIt,_Ty)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>
+          ]
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\xutility(1481,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\xutility(1480): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),double&,double&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Pr=bool (__cdecl *&)(int,int),
+              _Ty1=double &,
+              _Ty2=double &
+          ]
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3448): message : 查看对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,bool(__cdecl *)(int,int)>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=std::_Deque_unchecked_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3474): message : 查看对正在编译的函数 模板 实例化“void std::_Sort_unchecked<std::_Deque_unchecked_iterator<std::_Deque_val<std::_Deque_simple_types<_Ty>>>,bool(__cdecl *)(int,int)>(_RanIt,_RanIt,__int64,_Pr)”的引用
+          with
+          [
+              _Ty=double,
+              _RanIt=std::_Deque_unchecked_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+F:\VS.C++\演讲比赛流程管理系统\演讲比赛流程管理系统\SpeechManager.cpp(176): message : 查看对正在编译的函数 模板 实例化“void std::sort<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<_Ty>>>,bool(__cdecl *)(int,int)>(const _RanIt,const _RanIt,_Pr)”的引用
+          with
+          [
+              _Ty=double,
+              _RanIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\xutility(1481,20): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\xutility(1481,62): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\xutility(1481,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3384,101): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3384,91): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3388,92): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3388,82): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3398,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3398,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3410,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3410,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\xutility(1483,57): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3384): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),double&,double&,0>(_Pr,_Ty1,_Ty2) noexcept(false)”的引用
+          with
+          [
+              _Pr=bool (__cdecl *&)(int,int),
+              _Ty1=double &,
+              _Ty2=double &
+          ]
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\algorithm(3448): message : 查看对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,bool(__cdecl *)(int,int)>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=std::_Deque_unchecked_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\xutility(1483,50): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\vsC++\VC\Tools\MSVC\14.24.28314\include\xutility(1485,9): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  演讲比赛流程管理系统.vcxproj -> F:\VS.C++\演讲比赛流程管理系统\x64\Debug\演讲比赛流程管理系统.exe
